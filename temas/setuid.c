@@ -1,5 +1,6 @@
 /*
-* setuid: 
+* setuid: app to gain root access
+* once copile change binary to special permission: chomod ugo+s binary file 
 * 
 */
 #include<stdio.h>
