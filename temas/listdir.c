@@ -14,6 +14,7 @@ int main(int argc, char *argv[])
     int i = 1;
     
     if(argc != 2) {
+        // Get system error for "puts"
 	puts("USO: listdir {pathname}");
 	exit(EXIT_FAILURE);
     }
